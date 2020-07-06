@@ -6,16 +6,13 @@ int main (){
   test [1] = 15.559;
   test [2] = 12;
   test [3] = 13;
-
   // hier lassen sich die eingetragenen werte Anzeigen
 printf("erster Wert: %.f \n", test[0]); //%.f = keine Nachkommastellen
 printf("zweiter Wert: %.1f \n", test[1]);//%.1f = 1 Nachkommastellen
 printf("dritter Wert: %f \n", test[2]);//%f = 6 Nachkommastellen
 printf("vierter Wert: %d \n", test[3]); // %d funktioniert nicht, da float %f braucht
-
-int apfel=8;
+int apfel=5;
 apfel++;
 printf("%d",apfel);
-
 return  0;
 }
