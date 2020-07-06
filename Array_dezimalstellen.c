@@ -11,5 +11,8 @@ printf("erster Wert: %.f \n", test[0]); //%.f = keine Nachkommastellen
 printf("zweiter Wert: %.1f \n", test[1]);//%.1f = 1 Nachkommastellen
 printf("dritter Wert: %f \n", test[2]);//%f = 6 Nachkommastellen
 printf("vierter Wert: %d \n", test[3]); // %d funktioniert nicht, da float %f braucht
+int apfel=5;
+apfel++;
+printf("%d",apfel);
 return  0;
 }
